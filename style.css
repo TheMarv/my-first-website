@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0 0.6em;
+	font-family: 'Roboto', Arial;
+	background-color: #1a1a1a;
+	color: white;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+nav > a {
+	flex: 1;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.5em;
+	border: 1px solid white;
+	border-bottom: 0;
+	border-radius: 10px 10px 0 0;
+	color: white;
+}
+
+nav > a:hover {
+	background-color: #272727;
+}
+
+img {
+	max-width: 100vw;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+h1,
+h2,
+h3 {
+	text-align: center;
+}
+
+.aboutme {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.interests {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.interests-badge {
+	background-color: #3007b3;
+	padding: 0.25em 0.5em;
+	border-radius: 1em;
+}
+
+.contact-information {
+	font-size: 0.9em;
+	margin: 0.6em 0;
+	padding: 0 1em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-container {
+	gap: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+.socials {
+	display: flex;
+	text-decoration: none;
+	color: white;
+	background-color: #272727;
+	border-radius: 0.8em;
+	padding: 1em;
+}
+
+.social-description {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.social-description h3 {
+	margin: 0;
+	text-align: start;
+}
+
+.social-description p {
+	margin: 0;
+}
+
+.socials img {
+	width: 120px;
+	height: 120px;
+}
+
+.cv {
+	width: 100%;
+}
+
+.cv td,
+.cv th {
+	text-align: center;
+	padding: 0.5em 0;
+}
+
+footer {
+	margin-top: 1em;
+}

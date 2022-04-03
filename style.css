@@ -103,13 +103,20 @@ h3 {
 	background-color: #272727;
 	border-radius: 0.8em;
 	padding: 1em;
+	justify-items: space-around;
+}
+
+.social-img {
+	display: flex;
+	justify-content: center;
+	flex: 1;
 }
 
 .social-description {
 	display: flex;
 	flex-direction: column;
-	margin: 0 auto;
 	justify-content: center;
+	flex: 1;
 }
 
 .social-description h3 {

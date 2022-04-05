@@ -1,0 +1,17 @@
+.blockquote {
+  position: relative;
+  background-color: #def;
+}
+
+.blockquote--fancy {
+  color: rebeccapurple;
+}
+
+.blockquote::before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background-color: red;
+  left: -10px;
+}

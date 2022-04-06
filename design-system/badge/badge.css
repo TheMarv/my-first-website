@@ -1,0 +1,16 @@
+.badges {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.badge {
+  padding: 0.25em 0.5em;
+  border-radius: 1em;
+  color: white;
+}
+
+.badge--interests {
+  background-color: #3007b3;
+}

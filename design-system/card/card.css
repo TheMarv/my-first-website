@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  color: white;
+  background-color: #272727;
+  border-radius: 0.8em;
+  padding: 1em;
+  justify-items: space-around;
+}
+
+.card__social--img {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.card__social--description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.card__social--description h3 {
+  margin: 0;
+  text-align: start;
+}
+
+.card__social--description p {
+  margin: 0;
+}
+
+.card__social--img img {
+  width: 120px;
+  height: 120px;
+}

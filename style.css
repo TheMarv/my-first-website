@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('/base.css');
 @import url('/design-system/blockquote/blockquote.css');
+@import url('/design-system/badge/badge.css');
 
 * {
   box-sizing: border-box;
@@ -62,19 +64,6 @@ h3 {
 
 .selfie {
   max-height: 200px;
-}
-
-.interests {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.interests-badge {
-  background-color: #3007b3;
-  padding: 0.25em 0.5em;
-  border-radius: 1em;
 }
 
 .contact-information {
